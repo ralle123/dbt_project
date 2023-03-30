@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: source
+    tables:
+      - name: users
+        description: A code for the user being used.
+        tests:
+          - not_null
